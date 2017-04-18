@@ -1,1 +1,40 @@
-{     "devDependencies": {         "qwery": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-qwery",     "homepage": "https://github.com/npmtest/node-npmtest-qwery",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-qwery.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [qwery (v4.0.0)](https://github.com/ded/qwery)  [![npm package](https://img.shields.io/npm/v/npmtest-qwery.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-qwery) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-qwery.svg)](https://travis-ci.org/npmtest/node-npmtest-qwery)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "qwery": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-qwery",
+    "keywords": [
+        "coverage",
+        "test",
+        "qwery"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_qwery.js",
+    "name": "npmtest-qwery",
+    "nameAlias": "npmtest_qwery",
+    "nameOriginal": "npmtest-qwery",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-qwery.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
