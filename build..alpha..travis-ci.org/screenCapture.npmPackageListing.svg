@@ -1,0 +1,28 @@
+<svg height="398" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="398" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-18 04:04:58 +0000   235074 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-18 04:04:58 +0000      985 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-18 04:04:58 +0000       65 bytes  Makefile</tspan>
+<tspan x="10" y="74">  3.  2017-04-18 04:04:58 +0000     1905 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-18 04:04:58 +0000      291 bytes  component.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-18 04:04:58 +0000      479 bytes  config/smoosh.json</tspan>
+<tspan x="10" y="122">  6.  2017-04-18 04:04:58 +0000    30054 bytes  integration/ender.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-18 04:04:58 +0000      807 bytes  integration/integration.html</tspan>
+<tspan x="10" y="154">  8.  2017-04-18 04:04:58 +0000     2321 bytes  package.json</tspan>
+<tspan x="10" y="170">  9.  2017-04-18 04:04:58 +0000     2764 bytes  qwery.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-18 04:04:58 +0000     1281 bytes  qwery.min.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-18 04:04:58 +0000      121 bytes  src/copyright.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-18 04:04:58 +0000     1209 bytes  src/ender.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-18 04:04:58 +0000     2642 bytes  src/qwery.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-18 04:04:58 +0000    61391 bytes  tests/W3C-Selector-tests.html</tspan>
+<tspan x="10" y="266"> 15.  2017-04-18 04:04:58 +0000     6173 bytes  tests/benchmarks.html</tspan>
+<tspan x="10" y="282"> 16.  2017-04-18 04:04:58 +0000     4304 bytes  tests/index.html</tspan>
+<tspan x="10" y="298"> 17.  2017-04-18 04:04:58 +0000     1965 bytes  tests/mobile.html</tspan>
+<tspan x="10" y="314"> 18.  2017-04-18 04:04:58 +0000    21109 bytes  tests/tests.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-18 04:04:58 +0000    57693 bytes  vendor/nw.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-18 04:04:58 +0000     1239 bytes  vendor/sink.css</tspan>
+<tspan x="10" y="362"> 21.  2017-04-18 04:04:58 +0000     3642 bytes  vendor/sink.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-18 04:04:58 +0000    32634 bytes  vendor/sizzle.js</tspan>
+</text>
+</svg>
