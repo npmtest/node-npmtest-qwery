@@ -1,6 +1,6 @@
 # npmtest-qwery
 
-#### test coverage for  [qwery (v4.0.0)](https://github.com/ded/qwery)  [![npm package](https://img.shields.io/npm/v/npmtest-qwery.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-qwery) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-qwery.svg)](https://travis-ci.org/npmtest/node-npmtest-qwery)
+#### basic test coverage for  [qwery (v4.0.0)](https://github.com/ded/qwery)  [![npm package](https://img.shields.io/npm/v/npmtest-qwery.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-qwery) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-qwery.svg)](https://travis-ci.org/npmtest/node-npmtest-qwery)
 
 #### blazing fast CSS3 query selector engine
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-qwery/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-qwery/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-qwery/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-qwery/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-qwery/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-qwery/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-qwery/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-qwery/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-qwery/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-qwery/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-qwery/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-qwery/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "type": "git",
         "url": "git+https://github.com/ded/qwery.git"
     },
-    "version": "4.0.0"
+    "version": "4.0.0",
+    "bin": {}
 }
 ```
 
